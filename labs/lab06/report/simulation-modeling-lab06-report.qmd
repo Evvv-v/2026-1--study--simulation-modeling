@@ -65,8 +65,6 @@ license: "CC BY"
 
 ![Базовый прогон модели](image/003.png){#fig-003 width=70%}
 
-{{< include ../project/markdown/sirpetri_run/sirpetri_run.qmd >}}
-
 Запустим скрипт ([рис. @fig-004]).
 
 ![Базовый прогон модели](image/004.png){#fig-004 width=70%}
@@ -106,8 +104,6 @@ license: "CC BY"
 
 ![Коэффициент заражения β](image/009.png){#fig-007 width=70%}
 
-{{< include ../project/markdown/sirpetri_scan_parameters/sirpetri_scan_parameters.qmd >}} 
-
 Запустим скрипт ([рис. @fig-008]).
 
 ![Коэффициент заражения β](image/010.png){#fig-008 width=70%}
@@ -135,8 +131,6 @@ license: "CC BY"
 
 ![Анимация детерминированной динамики](image/014.png){#fig-011 width=70%}
 
-{{< include ../project/markdown/sirpetri_animate/sirpetri_animate.qmd >}}
-
 Запустим скрипт ([рис. @fig-012]).
 
 ![Анимация детерминированной динамики](image/015.png){#fig-012 width=70%}
@@ -160,8 +154,6 @@ license: "CC BY"
 Создадим файл scripts/sirpetri_report.jl. Скрипт загружает ранее сохранённые результаты (sir_det.csv, sir_stoch.csv, sir_scan.csv) и строит сравнительные графики для итогового отчёта ([рис. @fig-015]).
 
 ![Итоговый отчёт](image/018.png){#fig-015 width=70%}
-
-{{< include ../project/markdown/sirpetri_report/sirpetri_report.qmd >}}
 
 Запустим скрипт ([рис. @fig-016]).
 
